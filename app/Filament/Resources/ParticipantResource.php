@@ -6,6 +6,7 @@ use App\Filament\Resources\ParticipantResource\Pages;
 use App\Filament\Resources\ParticipantResource\RelationManagers;
 use App\Models\Participant;
 use Filament\Actions\CreateAction;
+use Filament\Actions\EditAction;
 use Filament\Actions\ImportAction;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;

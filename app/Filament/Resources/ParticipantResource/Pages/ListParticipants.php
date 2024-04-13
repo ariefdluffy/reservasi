@@ -18,8 +18,6 @@ class ListParticipants extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
-            Actions\ImportAction::make()
-                ->importer(ParticipantImporter::class),
         ];
     }
 }
